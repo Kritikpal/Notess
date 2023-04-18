@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Material3.CardView.Filled"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/colorTertiaryContainer"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1st note"
+            android:textColor="?attr/colorOnTertiaryContainer"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium" />
+
+        <TextView
+            android:id="@+id/noteDesc"
+            android:textColor="?attr/colorOnTertiaryContainer"
+            android:layout_width="match_parent"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:text="Unhides NotificationCompat.TvExtender (aosp/01c67677e9310b2cf4c536d7e951e117d6cce64a)
+Added public methods to access M3HCT parameters and turn M3HCT values into ARGB (aosp/06810598aa94bee731bbe0d277933b8b9614934e)
+Added NotificationManager.getCurrentInterruptionFilter (aosp/b0c6940639e35371d212a7ebd7dbf01c14fc7710)
+Added getCurrentInterruptionFilter to NotifManagerCompat (aosp/516143e05f824ff49bde3c0c97344a2924867d30)
+Deprecated app.BundleCompat in favor of os.B"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
